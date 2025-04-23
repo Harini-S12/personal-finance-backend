@@ -1,0 +1,3 @@
+npm init -y
+npm install express mysql2 typeorm dotenv body-parser class-validator
+npm install typescript ts-node @types/node @types/express --save-dev
