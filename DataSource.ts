@@ -3,7 +3,6 @@ import dotenv from 'dotenv';
 import { Expense } from './entities/Expense';
 import { Budget } from './entities/Budget';
 
-// Load environment variables
 dotenv.config();
 
 export const AppDataSource = new DataSource({
